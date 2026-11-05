@@ -1,7 +1,7 @@
 # TP03 - Sinais, escalonamento e filtragem
 
 ## Artefatos
-sketch.ino e diagram.json: aquisição de botão, ADC e LED no Wokwi. escalonamento.xlsx: cálculos, inversão, diagnóstico e gráfico. A planilha usa **casos controlados de entrada**, permitidos no gabarito; não são leituras capturadas. Importar no Google Planilhas e preservar as fórmulas para publicação do link.
+sketch.ino e diagram.json: aquisição de botão, ADC e LED no Wokwi. escalonamento.xlsx: cálculos, inversão, diagnóstico e gráfico. A planilha usa **casos controlados de entrada**, permitidos no gabarito; não são leituras capturadas. Consultar a [versão compartilhada no Google Planilhas](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing).
 
 ## Modelo
 p=100×ADC/1023; temperatura=p apenas na faixa 0–100 °C; I=4+16×p/100; V=10×p/100. ADC=512 produz 50,0489%, não exatamente 50%. NORMAL<70%; ATENÇÃO de 70 a menos de 85%; PERIGO≥85%. Valores fora de 0–100% são FALHA. No cálculo inverso, I=4+16×T/100 e V=T/10. Corrente fora de 4–20 mA é diagnosticada antes do escalonamento de processo.

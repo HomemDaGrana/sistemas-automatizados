@@ -6,13 +6,13 @@ Estrutura prevista: repositório pessoal público `sistemas-automatizados`, com 
 |---|---|---|
 | TP00 | Resumo de três páginas em PDF | Identificação, se solicitada |
 | TP01 | Diagrama editável, imagem e casos documentais | Conferência no editor |
-| TP02 | [Wokwi](https://wokwi.com/projects/479845101003491329), circuito, código e registros seriais | Consolidar a tabela de testes e confirmar a resposta do botão e LED |
-| TP03 | [Wokwi](https://wokwi.com/projects/479844855011678209), registro serial e planilha conferida | Link compartilhável do Google Planilhas |
+| TP02 | [Wokwi](https://wokwi.com/projects/479845101003491329), circuito, código e registros seriais | Confirmar a resposta do botão e LED e executar casos ainda sem registro serial |
+| TP03 | [Wokwi](https://wokwi.com/projects/479844855011678209), registro serial e [Google Planilhas com acesso de leitura por link](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing) | Conferir o link na entrega |
 | TP04 | Oito combinações executadas em Ladder, com captura e tabela | Projeto CircuitVerse e link do Ladder |
 | TP05 | Diagramas e percurso manual do semáforo, com as três transições indicadas | Conferência no editor |
 | TP06 | Especificação Ladder e roteiro de testes | Montagem, execução e link do simulador |
 | TP07 | Especificação Ladder e roteiro de testes | Montagem, execução e link do simulador |
-| TP08 | Protótipo diagrams.net, alternativa após exigência de login no Figma | Testar navegação e organizar subpastas de protótipo, evidências e testes |
+| TP08 | Protótipo diagrams.net, alternativa após exigência de login no Figma | Testar navegação no editor |
 | TP09 | Diagrama, PDF e planilha conferida | Ensaios físicos de rede, quando houver bancada |
 
 Consulte a tabela para acompanhar os itens pendentes antes da entrega final.
