@@ -1,0 +1,16 @@
+﻿ID,ADC,Temperatura_C,Botão,Estado esperado,LED esperado,Obtido Wokwi,Situação
+T01,200,25,0,NORMAL,0,Não executado,Pendente Wokwi
+T02,500,25,0,ATENCAO,0,Não executado,Pendente Wokwi
+T03,800,25,0,ALARME,0,Não executado,Pendente Wokwi
+T04,200,35,0,ATENCAO,0,Não executado,Pendente Wokwi
+T05,200,45,0,ALARME,0,Não executado,Pendente Wokwi
+T06,200,25,1,NORMAL,1,Não executado,Pendente Wokwi
+T07,900,NaN,0,FALHA DE SENSOR,0,Não executado,Pendente Wokwi
+T08,399,25,0,NORMAL,0,Não executado,Pendente Wokwi
+T09,400,25,0,ATENCAO,0,Não executado,Pendente Wokwi
+T10,749,25,0,ATENCAO,0,Não executado,Pendente Wokwi
+T11,750,25,0,ALARME,0,Não executado,Pendente Wokwi
+T12,900,45,0,ALARME,0,Não executado,Pendente Wokwi
+T13,500,45,0,ALARME,0,Não executado,Pendente Wokwi
+T14,900,35,0,ALARME,0,Não executado,Pendente Wokwi
+T15,500,35,0,ATENCAO,0,Não executado,Pendente Wokwi
