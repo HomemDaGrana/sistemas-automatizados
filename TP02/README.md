@@ -12,6 +12,6 @@ Enviar h no Serial habilita histerese térmica: liga em 40 °C, mantém acima de
 Equivalentes industriais: (1) botão representando presença de peça metálica → sensor indutivo de saída discreta 24 V, alcance definido pela folga e material; (2) potenciômetro representando nível → transmissor de nível 0–100% com 4–20 mA; (3) DHT22 → transmissor de temperatura com elemento adequado à faixa e saída 4–20 mA ou interface digital industrial. Invólucro, temperatura ambiente e compatibilidade química devem ser definidos na seleção real. Detectável: fio aberto com diagnóstico adequado. Não necessariamente detectável: deriva plausível dentro da faixa. Não conectar 24 V diretamente ao Uno.
 
 ## Evidências
-casos_teste.csv contém entradas e expectativas para execução no Wokwi. Resultado obtido não é preenchido com previsão. Salvar link público do projeto e capturas do circuito e Serial após executar os casos. A simulação não valida ruído, calibração ou segurança funcional.
+Os 15 casos de [casos_teste.csv](casos_teste.csv) foram conferidos no [Wokwi](https://wokwi.com/projects/479845101003491329). Os registros seriais documentam a classificação. O teste do botão mostrou [LED aceso ao pressionar](botao-pressionado.png) e [LED apagado ao soltar](botao-solto.png), com o estado do botão registrado em [serial-botao.csv](serial-botao.csv). A simulação não valida ruído, calibração ou segurança funcional.
 
 Fontes: Calvetti, TP02, slides 39–65; https://docs.wokwi.com/parts/wokwi-arduino-uno ; https://docs.wokwi.com/parts/wokwi-dht22 .
