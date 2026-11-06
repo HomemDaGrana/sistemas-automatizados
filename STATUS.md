@@ -10,8 +10,8 @@ Estrutura prevista: repositório pessoal público `sistemas-automatizados`, com 
 | TP03 | [Wokwi](https://wokwi.com/projects/479844855011678209), registro serial e [Google Planilhas com acesso de leitura por link](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing) | Conferir o link na entrega |
 | TP04 | Projeto CircuitVerse editável e oito combinações conferidas nos dois simuladores, com capturas e tabela | Links online do CircuitVerse e do Ladder |
 | TP05 | Diagramas e percurso manual do semáforo, com as três transições indicadas | Conferência no editor |
-| TP06 | Especificação Ladder e roteiro de testes | Montagem, execução e link do simulador |
-| TP07 | Especificação Ladder e roteiro de testes | Montagem, execução e link do simulador |
+| TP06 | Partida com selo montada e sete testes conferidos no PLC Simulator Online | Extensão de reversão e link do simulador |
+| TP07 | TON e CTU montados e oito testes registrados no PLC Simulator Online | Intermitência, sequência livre e link do simulador |
 | TP08 | Protótipo diagrams.net, alternativa após exigência de login no Figma | Testar navegação no editor |
 | TP09 | Diagrama, PDF e planilha conferida | Ensaios físicos de rede, quando houver bancada |
 

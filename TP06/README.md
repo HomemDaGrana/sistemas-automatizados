@@ -15,3 +15,7 @@ Montar os rungs de ladder.txt no PLC Simulator Online. Executar os casos_teste.c
 FWD/REV possuem intertravamento cruzado e inibição pelo comando oposto. Se ambos comandos chegam juntos, ambos são bloqueados. A troca de direção exige liberar comandos, parar e emitir nova partida. Contatos e bobinas modelam lógica; em máquina real seriam necessárias proteções e intertravamentos físicos apropriados.
 
 Fonte: Calvetti TP06, slides 60–68.
+
+## Execução no simulador
+
+Sete casos de partida com selo, parada, emergência, sobrecarga e recuperação foram executados no PLC Simulator Online. A extensão de reversão segue pendente. Veja a [tabela de testes](casos_teste.csv) e a [captura]({img}). O link do projeto compartilhado depende de login no simulador.

@@ -11,3 +11,7 @@ START mantido com STOP_OK e EMG_OK habilita TON T1 por 3 s. Antes de PT, Q=0; ao
 
 ## Arquivos e reprodução
 ladder.txt detalha rungs e ordem de avaliação. testes_modelo.csv e traco_temporal.csv serão resultados de um modelo computacional auxiliar, quando presentes; não são observações do PLC Simulator Online. casos_teste.csv é a verificação a executar no simulador principal. Fonte: Calvetti TP07, slides 60–69. A contingência documental não substitui o programa Ladder executável, conforme slide 67.
+
+## Execução no simulador
+
+TON com PT de 3000 ms e CTU com PV de 5 peças foram executados no PLC Simulator Online. Os testes incluem interrupção, sinal mantido e reset. No T08, as duas entradas foram configuradas antes de iniciar a simulação e foi lido o resultado estabilizado. Intermitência e sequência livre seguem pendentes. Veja a [tabela de testes](casos_teste.csv) e a [captura]({img}). O link do projeto compartilhado depende de login no simulador.
