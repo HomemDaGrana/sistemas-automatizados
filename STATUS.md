@@ -8,7 +8,7 @@ Estrutura prevista: repositório pessoal público `sistemas-automatizados`, com 
 | TP01 | Diagrama editável, imagem e casos documentais | Conferência no editor |
 | TP02 | [Wokwi](https://wokwi.com/projects/479845101003491329), circuito, código e registros seriais | Confirmar a resposta do botão e LED e executar casos ainda sem registro serial |
 | TP03 | [Wokwi](https://wokwi.com/projects/479844855011678209), registro serial e [Google Planilhas com acesso de leitura por link](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing) | Conferir o link na entrega |
-| TP04 | Oito combinações executadas em Ladder, com captura e tabela | Projeto CircuitVerse e link do Ladder |
+| TP04 | Projeto CircuitVerse editável e oito combinações conferidas nos dois simuladores, com capturas e tabela | Links online do CircuitVerse e do Ladder |
 | TP05 | Diagramas e percurso manual do semáforo, com as três transições indicadas | Conferência no editor |
 | TP06 | Especificação Ladder e roteiro de testes | Montagem, execução e link do simulador |
 | TP07 | Especificação Ladder e roteiro de testes | Montagem, execução e link do simulador |
