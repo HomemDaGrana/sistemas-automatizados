@@ -1,0 +1,6 @@
+﻿ID,Cenário,Resultado no modelo,Obtido,Método
+T01,Todos os enlaces presentes,PASSOU,14/14 nós do desenho pertencem ao componente do SCADA,Análise de grafo e endereçamento; sem tráfego real
+T02,Gateway B removido,PASSOU,"Nós isolados: ctrl, gw",Análise de grafo e endereçamento; sem tráfego real
+T03,IP duplicado injetado e removido,PASSOU,Detector encontrou 10.20.30.10; mapa original permanece sem duplicidade,Análise de grafo e endereçamento; sem tráfego real
+T04,Fibra FW-OT / SW-A removida,PASSOU,"CLP, HMI, remotas e inversores permanecem conectados localmente; SCADA perde o caminho para A",Análise de grafo e endereçamento; sem tráfego real
+T05,Novo nó na reserva A1,PASSOU,Novo nó usa 10.20.30.60; endereços existentes preservados,Análise de grafo e endereçamento; sem tráfego real

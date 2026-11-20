@@ -23,3 +23,7 @@ Segundo legado: reservar slave 6 e documentar mapa de registradores com o fabric
 Disponibilidade adicional: para tolerar rompimento de um enlace, propor anel gerenciado compatível, fontes independentes e rotas físicas separadas. Tempo de comutação é requisito a contratar e ensaiar; não deduzir do desenho. Revisão por pares depende de projeto real de outro aluno e não foi simulada como colaboração.
 
 Fonte: Calvetti TP09, slides 52–69. Casos em planilha distinguem inspeção documental de ensaio físico.
+
+## Evidências reproduzíveis
+
+Os [cinco resultados da análise do modelo](evidencias/README.md) foram calculados a partir do diagrama e do mapa CSV. Execute `python TP09/verificar_rede.py` na raiz do repositório para reproduzir a análise normal, as falhas, a detecção de IP repetido e a expansão. A [tabela de resultados](evidencias/resultados-modelo.csv) registra os resultados obtidos. Conectividade no grafo não comprova comunicação ou tempos reais; os testes de bancada permanecem separados na planilha.

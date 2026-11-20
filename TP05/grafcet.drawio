@@ -5,8 +5,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e0" value="E0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=doubleRectangle;" vertex="1" parent="1">
+        <mxCell id="e0" value="E0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=rectangle;" vertex="1" parent="1">
           <mxGeometry x="170" y="100" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e0-borda-interna" value="" style="shape=rectangle;fillColor=none;strokeColor=#29485c;pointerEvents=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="175.0" y="105.0" width="60.0" height="60.0" as="geometry" />
         </mxCell>
         <mxCell id="a0" value="VERMELHO=1" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;" vertex="1" parent="1">
           <mxGeometry x="330" y="100" width="430" height="70" as="geometry" />
@@ -85,8 +88,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e0" value="E0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=doubleRectangle;" vertex="1" parent="1">
+        <mxCell id="e0" value="E0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=rectangle;" vertex="1" parent="1">
           <mxGeometry x="170" y="100" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e0-borda-interna" value="" style="shape=rectangle;fillColor=none;strokeColor=#29485c;pointerEvents=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="175.0" y="105.0" width="60.0" height="60.0" as="geometry" />
         </mxCell>
         <mxCell id="a0" value="Aguardar: válvulas e misturador=0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;" vertex="1" parent="1">
           <mxGeometry x="330" y="100" width="430" height="70" as="geometry" />
@@ -186,8 +192,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e0" value="E0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=doubleRectangle;" vertex="1" parent="1">
+        <mxCell id="e0" value="E0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=rectangle;" vertex="1" parent="1">
           <mxGeometry x="170" y="100" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e0-borda-interna" value="" style="shape=rectangle;fillColor=none;strokeColor=#29485c;pointerEvents=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="175.0" y="105.0" width="60.0" height="60.0" as="geometry" />
         </mxCell>
         <mxCell id="a0" value="FECHADA: motor=0" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;" vertex="1" parent="1">
           <mxGeometry x="330" y="100" width="430" height="70" as="geometry" />
@@ -287,8 +296,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e0" value="E0 INICIAL&lt;br&gt;Transporte: MOTOR=1" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=doubleRectangle;" vertex="1" parent="1">
+        <mxCell id="e0" value="E0 INICIAL&lt;br&gt;Transporte: MOTOR=1" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;shape=rectangle;" vertex="1" parent="1">
           <mxGeometry x="30" y="110" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e0-borda-interna" value="" style="shape=rectangle;fillColor=none;strokeColor=#29485c;pointerEvents=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="35.0" y="115.0" width="220.0" height="70.0" as="geometry" />
         </mxCell>
         <mxCell id="e1" value="E1 LEITURA&lt;br&gt;MOTOR=0; esperar 0,5 s" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Arial;fillColor=#edf3f7;strokeColor=#29485c;" vertex="1" parent="1">
           <mxGeometry x="380" y="110" width="300" height="80" as="geometry" />
