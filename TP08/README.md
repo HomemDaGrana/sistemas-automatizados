@@ -19,3 +19,7 @@ Fonte: Calvetti TP08, slides 53–69.
 Acesso verificado em 05/11/2026: abrir Figma Files redirecionou para Login. Por isso foi preparada a alternativa diagrams.net prevista no enunciado.
 
 [Roteiro de testes](testes/casos_teste.csv) e [capturas](evidencias/).
+
+## Navegação conferida
+
+Em 20/11/2026, os links do protótipo conduziram da tela de processo a alarmes e de volta ao processo, depois à manutenção e de volta ao processo. Os destinos page0, page1 e page2 estão no [registro da navegação](testes/navegacao-verificada.json). A [captura](evidencias/editor-verificado.jpg) mostra o arquivo aberto no editor. Os casos de estados e comandos em casos_teste.csv ainda requerem conferência específica.

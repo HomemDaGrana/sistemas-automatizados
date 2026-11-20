@@ -22,3 +22,7 @@ Os cenários em casos_teste.csv são verificação documental do modelo, não en
 
 ## Fonte
 Calvetti, TP01, slides 56–67, disponível na pasta da disciplina. Abrir .drawio em https://app.diagrams.net/ usando Arquivo > Abrir de > Dispositivo.
+
+## Conferência no editor
+
+O arquivo porta.drawio abriu no diagrams.net em 20/11/2026 com sete formas e seis conectores. O editor apresentou os blocos de entrada, controle, atuação, planta, realimentação e falha, além da fronteira do sistema. Veja a [captura do editor](editor-verificado.jpg).
