@@ -65,7 +65,7 @@ checks = [
 out = ROOT / 'evidencias'
 out.mkdir(exist_ok=True)
 with (out / 'resultados-modelo.csv').open('w', encoding='utf-8-sig', newline='') as f:
-    writer = csv.writer(f)
+    writer = csv.writer(f, lineterminator="\n")
     writer.writerow(['ID','Cenário','Resultado no modelo','Obtido','Método'])
     for id_, scenario, ok, obtained in checks:
         writer.writerow([id_,scenario,'PASSOU' if ok else 'FALHOU',obtained,'Análise de grafo e endereçamento; sem tráfego real'])
