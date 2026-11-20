@@ -1,6 +1,6 @@
 ﻿ID,Cenário,Esperado,Obtido,Situação
-T01,58%; GOOD; MANUAL,NORMAL; comandos disponíveis,Pendente teste de navegação,Pendente
-T02,78%,ATENÇÃO H,Pendente teste de navegação,Pendente
-T03,92%,HH destacado e listado,Pendente teste de navegação,Pendente
-T04,COMM_PLC=BAD,Valor ---; comandos bloqueados,Pendente teste de navegação,Pendente
-T05,Parar P-101,Confirmação específica,Pendente teste de navegação,Pendente
+T01,58%; GOOD; MANUAL,NORMAL; comandos disponíveis,58%; NORMAL; GOOD; PARTIR e PARAR disponíveis,Aprovado no protótipo diagrams.net
+T02,78%,ATENÇÃO H,78%; ATENÇÃO H visível,Aprovado no protótipo diagrams.net
+T03,92%,HH destacado e listado,92%; HH destacado; comandos bloqueados; HH ativo na lista com prioridade alta,Aprovado no protótipo diagrams.net
+T04,COMM_PLC=BAD,Valor ---; comandos bloqueados,Valor ---; comunicação ruim; retorno desconhecido; comandos bloqueados,Aprovado no protótipo diagrams.net
+T05,Parar P-101,Confirmação específica,Confirmação P-101/R-101; estado LIGADA; consequência interromper enchimento; confirmar e cancelar disponíveis,Aprovado no protótipo diagrams.net

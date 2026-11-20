@@ -1,0 +1,96 @@
+[
+  {
+    "id": "T01",
+    "obtido": [
+      "58%",
+      "NORMAL",
+      "PARTIR P-101",
+      "PARAR P-101",
+      "GOOD"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page0%22%7D"
+  },
+  {
+    "id": "T02",
+    "obtido": [
+      "78%",
+      "ATENÇÃO H"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page3%22%7D"
+  },
+  {
+    "id": "T03-processo",
+    "obtido": [
+      "92%",
+      "ALARME HH",
+      "COMANDOS BLOQUEADOS"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page4%22%7D"
+  },
+  {
+    "id": "T03-lista",
+    "obtido": [
+      "HH ATIVO",
+      "ALTA",
+      "NÃO RECONHECIDA"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page1%22%7D"
+  },
+  {
+    "id": "T04",
+    "obtido": [
+      "---",
+      "COMUNICAÇÃO RUIM",
+      "COMANDOS BLOQUEADOS",
+      "DESCONHECIDO"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page5%22%7D"
+  },
+  {
+    "id": "T05",
+    "obtido": [
+      "Parar a bomba P-101 do reservatório R-101?",
+      "Estado atual LIGADA",
+      "Consequência: interromper o enchimento.",
+      "CONFIRMAR PARADA",
+      "CANCELAR"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page6%22%7D"
+  },
+  {
+    "id": "T06-feedback",
+    "obtido": [
+      "Comando PARAR solicitado para P-101.",
+      "CMD=0",
+      "STATUS exibido LIGADA"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page7%22%7D"
+  },
+  {
+    "id": "T07-local",
+    "obtido": [
+      "Modo LOCAL",
+      "COMANDOS BLOQUEADOS",
+      "Autoridade de comando no equipamento local."
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page10%22%7D"
+  },
+  {
+    "id": "T08-auto",
+    "obtido": [
+      "Modo AUTOMÁTICO",
+      "COMANDOS BLOQUEADOS",
+      "Sequência no CLP decide a operação automática."
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page9%22%7D"
+  },
+  {
+    "id": "T09-partida",
+    "obtido": [
+      "Comando PARTIR solicitado para P-101.",
+      "CMD=1",
+      "AGUARDANDO RETORNO"
+    ],
+    "url": "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2F5d3f836dc3c493fe097688988e278ab58030a998%2FTP08%2Fprototipo%2Fprototipo.drawio#%7B%22pageId%22%3A%22page8%22%7D"
+  }
+]

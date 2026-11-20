@@ -12,7 +12,7 @@ Estrutura prevista: repositório pessoal público `sistemas-automatizados`, com 
 | TP05 | Quatro páginas abertas no editor, diagramas e percurso manual do semáforo | — |
 | TP06 | Partida com selo e reversão conferidas no [programa Ladder publicado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg) | — |
 | TP07 | TON, CTU, intermitência e sequência testados. [Programa Ladder publicado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg) | — |
-| TP08 | Protótipo diagrams.net com navegação processo/alarmes/manutenção conferida | Conferir os casos de estados e comando da interface |
+| TP08 | Protótipo diagrams.net com navegação, cinco casos obrigatórios e quatro cenários adicionais conferidos | — |
 | TP09 | Diagrama, PDF e planilha conferida | Ensaios físicos de rede, quando houver bancada |
 
 Consulte a tabela para acompanhar os itens pendentes antes da entrega final.

@@ -22,8 +22,14 @@ Acesso verificado em 05/11/2026: abrir Figma Files redirecionou para Login. Por 
 
 ## Navegação conferida
 
-Em 20/11/2026, os links do protótipo conduziram da tela de processo a alarmes e de volta ao processo, depois à manutenção e de volta ao processo. Os destinos page0, page1 e page2 estão no [registro da navegação](testes/navegacao-verificada.json). A [captura](evidencias/editor-verificado.jpg) mostra o arquivo aberto no editor. Os casos de estados e comandos em casos_teste.csv ainda requerem conferência específica.
+Em 20/11/2026, os links do protótipo conduziram da tela de processo a alarmes e de volta ao processo, depois à manutenção e de volta ao processo. Os destinos page0, page1 e page2 estão no [registro da navegação](testes/navegacao-verificada.json). A [captura](evidencias/editor-verificado.jpg) mostra o arquivo aberto no editor. Os cinco casos obrigatórios e quatro cenários adicionais foram conferidos no editor após a revisão do protótipo.
 
 ## Cenários revisados
 
 O protótipo inclui seletores para 58% normal, 78% atenção, 92% HH e comunicação BAD. PARTIR e PARAR navegam para páginas de solicitação e confirmação. Os modos AUTOMÁTICO e LOCAL exibem comandos indisponíveis. A confirmação de parada mostra alvo P-101, estado LIGADA, consequência e orientação para aguardar o retorno. As cores verde, amarela, vermelha e cinza acompanham textos de estado.
+
+## Resultados finais da interface
+
+Os cinco casos obrigatórios estão preenchidos em [casos_teste.csv](testes/casos_teste.csv). O [registro detalhado](testes/estados-verificados.json) inclui feedback de parada, bloqueio LOCAL, bloqueio AUTOMÁTICO e solicitação de partida. Os testes usaram os links das caixas no editor diagrams.net.
+
+O [protótipo navegável](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FHomemDaGrana%2Fsistemas-automatizados%2Fmain%2FTP08%2Fprototipo%2Fprototipo.drawio) abre a fonte publicada. Foi usada a alternativa diagrams.net prevista no enunciado após a tela de login do Figma. Os valores exibidos são dados de demonstração.
