@@ -11,7 +11,7 @@ Estrutura prevista: repositório pessoal público `sistemas-automatizados`, com 
 | TP04 | Projeto CircuitVerse editável e oito combinações conferidas nos dois simuladores, com capturas e tabela | Links online do CircuitVerse e do Ladder |
 | TP05 | Diagramas e percurso manual do semáforo, com as três transições indicadas | Conferência no editor |
 | TP06 | Partida com selo e reversão conferidas no PLC Simulator Online | Link do simulador |
-| TP07 | TON e CTU montados e oito testes registrados no PLC Simulator Online | Intermitência, sequência livre e link do simulador |
+| TP07 | TON, CTU e intermitência montados e testados no PLC Simulator Online | Sequência livre e link do simulador |
 | TP08 | Protótipo diagrams.net, alternativa após exigência de login no Figma | Testar navegação no editor |
 | TP09 | Diagrama, PDF e planilha conferida | Ensaios físicos de rede, quando houver bancada |
 

@@ -14,4 +14,10 @@ ladder.txt detalha rungs e ordem de avaliação. testes_modelo.csv e traco_tempo
 
 ## Execução no simulador
 
-TON com PT de 3000 ms e CTU com PV de 5 peças foram executados no PLC Simulator Online. Os testes incluem interrupção, sinal mantido e reset. No T08, as duas entradas foram configuradas antes de iniciar a simulação e foi lido o resultado estabilizado. Intermitência e sequência livre seguem pendentes. Veja a [tabela de testes](casos_teste.csv) e a [captura]({img}). O link do projeto compartilhado depende de login no simulador.
+TON com PT de 3000 ms e CTU com PV de 5 peças foram executados no PLC Simulator Online. Os testes incluem interrupção, sinal mantido e reset. No T08, as duas entradas foram configuradas antes de iniciar a simulação e foi lido o resultado estabilizado. A intermitência foi executada em 20/11/2026, com PT de 1000 ms em cada fase e amostragem da saída durante 6,3 segundos. A sequência livre segue pendente. Veja a [tabela de testes](casos_teste.csv) e a [captura](ton-atingido.png). O link do projeto compartilhado depende de login no simulador.
+
+### Intermitência
+
+Foram usados TON T_OFF e T_ON com PT=1000 ms. ENABLE e contato negado de PISCA habilitam T_OFF, cuja saída aciona SET PISCA. ENABLE e PISCA habilitam T_ON, cuja saída aciona RESET PISCA. ENABLE falso aciona RESET PISCA. A observação começou com PISCA falso e registrou três intervalos ligados, separados por intervalos desligados. Ao desabilitar, a saída ficou falsa.
+
+O [registro observado](intermitencia-observada.json) usa o relógio da coleta no navegador, sujeito à latência de amostragem. A [captura](intermitencia.png) mostra o programa montado e desabilitado após o teste.
