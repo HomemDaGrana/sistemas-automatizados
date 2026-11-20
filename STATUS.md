@@ -18,3 +18,5 @@ Estrutura utilizada: repositório pessoal público `sistemas-automatizados`, com
 | TP10 | Mapas Modbus e OPC UA, diagrama MQTT, duas planilhas e 18 testes locais com 30 pares de roteamento | Sem comprovação de comunicação real, conforme escopo documental do enunciado |
 
 Consulte a tabela para acompanhar os itens pendentes antes da entrega final.
+
+Cadastro do GitHub enviado ao formulário do professor em 20/11/2026. A página confirmou “Sua resposta foi registrada.” [Registro da entrega](ENTREGA.md).

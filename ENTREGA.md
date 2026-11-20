@@ -8,4 +8,4 @@ O formulário solicita e-mail, turma, RA, nome completo e link do GitHub. A opç
 
 Link das atividades: https://github.com/HomemDaGrana/sistemas-automatizados
 
-As pastas TP00 a TP10 estão publicadas. O envio do formulário só pode ser considerado concluído após a confirmação de recebimento na página.
+As pastas TP00 a TP10 estão publicadas. O formulário foi enviado em 20/11/2026, com os dados confirmados pelo aluno. A página exibiu “Sua resposta foi registrada.” Veja o [comprovante](evidencias-entrega/confirmacao.jpg). Esse registro comprova o envio do cadastro do GitHub, sem representar correção ou nota do professor.

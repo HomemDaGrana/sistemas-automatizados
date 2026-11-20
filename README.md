@@ -24,7 +24,7 @@ Este pacote reúne as atividades TP00 a TP10 solicitadas para o GitHub. A3 e sim
 Consultar [STATUS.md](STATUS.md) para os resultados e limites de verificação. Resultados documentais e de modelos locais estão identificados como tal. Nenhum campo de simulação é aprovado sem observação. Links de projetos e capturas precisam corresponder à execução nos ambientes indicados.
 
 ## Publicação
-As pastas TP00 a TP10 estão publicadas neste repositório pessoal público. Nome e RA foram informados pelo aluno. A publicação no GitHub não registra automaticamente a entrega em outro portal da disciplina. Datas antigas das aulas não foram reinterpretadas como novos prazos.
+As pastas TP00 a TP10 estão publicadas neste repositório pessoal público. Nome e RA foram informados pelo aluno. O cadastro do link no formulário indicado pelo professor foi enviado em 20/11/2026 e confirmado na página. Consulte [o registro e comprovante](ENTREGA.md). Datas antigas das aulas não foram reinterpretadas como novos prazos.
 
 ## Fonte principal
 [Pasta da disciplina](https://drive.google.com/drive/folders/1Y5BiTH1I47L28xdBArPPRYPFSyjU4qEL). Os enunciados de cada TP orientam os arquivos. Gabaritos usados para conferência, não como evidência de execução própria.
