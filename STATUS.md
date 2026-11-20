@@ -8,10 +8,10 @@ Estrutura prevista: repositório pessoal público `sistemas-automatizados`, com 
 | TP01 | Diagrama editável, imagem e casos documentais | Conferência no editor |
 | TP02 | [Wokwi](https://wokwi.com/projects/479845101003491329), circuito, código, 15 casos confirmados no Serial e resposta do botão e LED conferida | — |
 | TP03 | [Wokwi](https://wokwi.com/projects/479844855011678209), registro serial e [Google Planilhas com acesso de leitura por link](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing) | Conferir o link na entrega |
-| TP04 | Projeto CircuitVerse editável e oito combinações conferidas nos dois simuladores, com capturas e tabela | Links online do CircuitVerse e do Ladder |
+| TP04 | Projeto CircuitVerse editável e oito combinações conferidas nos dois simuladores, com capturas e tabela | Link online do CircuitVerse. [Ladder publicado](https://app.plcsimulator.online/LElaHuINNP5UewWBBrE9) |
 | TP05 | Diagramas e percurso manual do semáforo, com as três transições indicadas | Conferência no editor |
-| TP06 | Partida com selo e reversão conferidas no PLC Simulator Online | Link do simulador |
-| TP07 | TON, CTU e intermitência montados e testados no PLC Simulator Online | Sequência livre e link do simulador |
+| TP06 | Partida com selo e reversão conferidas no [programa Ladder publicado](https://app.plcsimulator.online/LElaHuINNP5UewWBBrE9) | — |
+| TP07 | TON, CTU e intermitência montados e testados no PLC Simulator Online | Sequência livre. [Programa Ladder publicado](https://app.plcsimulator.online/LElaHuINNP5UewWBBrE9) |
 | TP08 | Protótipo diagrams.net, alternativa após exigência de login no Figma | Testar navegação no editor |
 | TP09 | Diagrama, PDF e planilha conferida | Ensaios físicos de rede, quando houver bancada |
 

@@ -18,4 +18,6 @@ Fonte: Calvetti TP06, slides 60–68.
 
 ## Execução no simulador
 
-Sete casos de partida com selo, parada, emergência, sobrecarga e recuperação foram executados no PLC Simulator Online. A reversão foi testada em avanço, recuo e comandos simultâneos. Os [resultados](resultados-reversao.json) registram as duas saídas. Veja a [tabela de testes](casos_teste.csv) e a [captura](ladder-selo.png). O link do projeto compartilhado depende de login no simulador.
+Sete casos de partida com selo, parada, emergência, sobrecarga e recuperação foram executados no PLC Simulator Online. A reversão foi testada em avanço, recuo e comandos simultâneos. Os [resultados](resultados-reversao.json) registram as duas saídas. Veja a [tabela de testes](casos_teste.csv) e a [captura](ladder-selo.png). [Abrir programa Ladder compartilhado](https://app.plcsimulator.online/LElaHuINNP5UewWBBrE9).
+
+O projeto compartilhado também reúne os rungs da TP04 e os exercícios TON, CTU e intermitência da TP07. Na TP06, use START, STOP_OK, EMG_OK, OL_OK, MOTOR, RUN e READY. A reversão usa CMD_FWD, CMD_REV, FWD e REV.
