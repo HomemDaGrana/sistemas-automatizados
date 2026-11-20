@@ -15,3 +15,5 @@ Entradas: `rede.drawio` e `nos.csv`. Os enlaces são analisados como conexões f
 | T05 | Novo nó na reserva A1 | PASSOU no modelo | Novo nó usa 10.20.30.60; endereços existentes preservados |
 
 Os ensaios da planilha devem ser executados na bancada para registrar comunicação e tempos reais. A perda de um caminho no grafo indica isolamento topológico; a permanência do caminho não garante funcionamento do processo.
+
+[Captura da topologia aberta no editor](editor-verificado.jpg).

@@ -34,6 +34,8 @@ Controle, Integração e Serviços são zonas distintas. Modbus legado fica aces
 
 Falha do broker interrompe mensagens aos serviços e marca lacuna no histórico; o controle local permanece independente. Reconexão exige republicação de estado e identificação de lacunas, sem inventar eventos ausentes. Falha do gateway torna suas tags BadCommunicationError, bloqueia comandos dependentes e exige nova leitura válida antes de Good. Os cinco cenários de QoS e a matriz de fluxos/riscos estão na planilha de roteamento.
 
+O arquivo editável foi aberto no diagrams.net; veja a [captura do editor](evidencias/editor-verificado.jpg).
+
 ## Evidências e limites
 
 18 testes e 30 pares de roteamento foram executados no modelo local. Fórmulas da planilha comparam esperado e obtido e calculam escala e offset. Este resultado não comprova interoperabilidade, latência, segurança configurada ou desempenho em rede real. Não foram usados broker, CLP ou servidor OPC UA reais.

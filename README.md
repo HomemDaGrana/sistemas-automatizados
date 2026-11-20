@@ -36,3 +36,7 @@ As pastas TP00 a TP10 estão publicadas neste repositório pessoal público. Nom
 - [TP03 · Google Planilhas](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing)
 - [TP04 · CircuitVerse](https://circuitverse.org/users/487293/projects/tp04-logica-combinacional)
 - [TP04, TP06 e TP07 · PLC Simulator](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg)
+
+## Cadastro para avaliação
+
+O destino indicado pelo QR code do professor está documentado em [ENTREGA.md](ENTREGA.md).
