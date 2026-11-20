@@ -4,7 +4,7 @@
 
 USJT · Engenharia de Software · 2026/2 · Prof. Robson Calvetti.
 
-Este pacote reúne as atividades TP00 a TP09 solicitadas para o GitHub. A3 e simulado de prova ficam fora do escopo. Os PDFs do professor não são redistribuídos.
+Este pacote reúne as atividades TP00 a TP10 solicitadas para o GitHub. A3 e simulado de prova ficam fora do escopo. Os PDFs do professor não são redistribuídos.
 
 | Pasta | Conteúdo |
 |---|---|
@@ -18,12 +18,13 @@ Este pacote reúne as atividades TP00 a TP09 solicitadas para o GitHub. A3 e sim
 | TP07 | TON, contagem e sequência |
 | TP08 | Supervisório de reservatório e tags |
 | TP09 | Rede industrial, endereçamento e riscos |
+| TP10 | Modbus, OPC UA, MQTT, roteamento e testes |
 
 ## Situação da entrega
 Consultar [STATUS.md](STATUS.md) para os resultados e limites de verificação. Resultados documentais e de modelos locais estão identificados como tal. Nenhum campo de simulação é aprovado sem observação. Links de projetos e capturas precisam corresponder à execução nos ambientes indicados.
 
 ## Publicação
-As pastas TP00 a TP09 estão publicadas neste repositório pessoal público. Nome e RA foram informados pelo aluno. A publicação no GitHub não registra automaticamente a entrega em outro portal da disciplina. Datas antigas das aulas não foram reinterpretadas como novos prazos.
+As pastas TP00 a TP10 estão publicadas neste repositório pessoal público. Nome e RA foram informados pelo aluno. A publicação no GitHub não registra automaticamente a entrega em outro portal da disciplina. Datas antigas das aulas não foram reinterpretadas como novos prazos.
 
 ## Fonte principal
 [Pasta da disciplina](https://drive.google.com/drive/folders/1Y5BiTH1I47L28xdBArPPRYPFSyjU4qEL). Os enunciados de cada TP orientam os arquivos. Gabaritos usados para conferência, não como evidência de execução própria.

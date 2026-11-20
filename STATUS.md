@@ -1,6 +1,6 @@
 # Situação das práticas
 
-Estrutura utilizada: repositório pessoal público `sistemas-automatizados`, com `README.md` e as pastas `TP00` a `TP09` na raiz. O nome é uma escolha para o repositório da disciplina, conforme a opção apresentada em TP01.
+Estrutura utilizada: repositório pessoal público `sistemas-automatizados`, com `README.md` e as pastas `TP00` a `TP10` na raiz. O nome é uma escolha para o repositório da disciplina, conforme a opção apresentada em TP01.
 
 | Prática | O que está disponível | O que falta conferir ou concluir |
 |---|---|---|
@@ -14,5 +14,7 @@ Estrutura utilizada: repositório pessoal público `sistemas-automatizados`, com
 | TP07 | TON, CTU, intermitência e sequência testados. [Programa Ladder publicado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg) | — |
 | TP08 | Protótipo diagrams.net com navegação, cinco casos obrigatórios e quatro cenários adicionais conferidos | — |
 | TP09 | Diagrama, PDF, planilha e cinco análises reproduzíveis do modelo de rede | Ensaios físicos de rede, quando houver bancada; revisão por pares requer projeto de outro aluno |
+
+| TP10 | Mapas Modbus e OPC UA, diagrama MQTT, duas planilhas e 18 testes locais com 30 pares de roteamento | Sem comprovação de comunicação real, conforme escopo documental do enunciado |
 
 Consulte a tabela para acompanhar os itens pendentes antes da entrega final.
