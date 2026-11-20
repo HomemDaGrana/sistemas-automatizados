@@ -1,5 +1,7 @@
 # TP01 - Porta automática
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Objetivo e classificação
 Permitir passagem sem contato, interrompendo o fechamento quando a área estiver ocupada. Sistema automático de eventos discretos com realimentação. Usuário: pessoa que acessa o edifício. A fronteira é explicitada em [porta.png](porta.png); fonte [porta.drawio](porta.drawio).
 

@@ -1,5 +1,7 @@
 # TP08 - Supervisório do reservatório R-101
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Modelo
 Nível 0–100%, bomba P-101, modos MANUAL/AUTOMATICO/LOCAL. H=75% e HH=90% são limites adotados neste protótipo para reproduzir 58% normal, 78% atenção e 92% alarme. Qualidade ruim domina classificação: mostrar --- e bloquear comandos, mantendo indicação da última leitura válida somente se identificada como histórica.
 

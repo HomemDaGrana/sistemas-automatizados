@@ -1,5 +1,7 @@
 # TP04 - Lógica combinacional
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Variáveis e expressões
 S=solicitação, G=proteção fechada, E=emergência ativa. M=S AND G AND NOT E. O circuito de portas e o rung Ladder devem produzir as oito linhas de tabela_verdade.csv. O arquivo ladder.txt especifica cada rung, mas não é um projeto nativo do simulador.
 
@@ -15,4 +17,4 @@ Uma entrada indefinida não pode ser tratada como autorização. O exemplo supõ
 
 ## Projeto editável e evidências
 
-Abra o [simulador CircuitVerse](https://circuitverse.org/simulator) e importe [logica.cv](logica.cv) em Project → Import Project. O arquivo tem cinco circuitos. As oito combinações do circuito Partida_condicionada foram conferidas no CircuitVerse e no Ladder. A [tabela](tabela_verdade.csv) e as [capturas](evidencias-circuitverse/) registram as entradas e a saída observada. O nome de cada captura corresponde à ordem S, G, E. O [programa Ladder compartilhado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg) inclui o rung S, G, contato negado E e bobina M, na parte inferior. O link online do CircuitVerse segue pendente.
+Abra o [simulador CircuitVerse](https://circuitverse.org/simulator) e importe [logica.cv](logica.cv) em Project → Import Project. O arquivo tem cinco circuitos. As oito combinações do circuito Partida_condicionada foram conferidas no CircuitVerse e no Ladder. A [tabela](tabela_verdade.csv) e as [capturas](evidencias-circuitverse/) registram as entradas e a saída observada. O nome de cada captura corresponde à ordem S, G, E. O [programa Ladder compartilhado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg) inclui o rung S, G, contato negado E e bobina M, na parte inferior. O [projeto público no CircuitVerse](https://circuitverse.org/users/487293/projects/tp04-logica-combinacional) reúne os cinco circuitos. A [captura da publicação](evidencias-circuitverse/publicado.jpg) confirma o autor Denner Ferreira e o acesso público.

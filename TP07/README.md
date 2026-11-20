@@ -1,5 +1,7 @@
 # TP07 - Temporização e contagem
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Atraso obrigatório
 START mantido com STOP_OK e EMG_OK habilita TON T1 por 3 s. Antes de PT, Q=0; ao atingir PT, Q=1 e MOTOR_DELAY=1. Interrupção zera ET e Q. Não há selo de START neste exercício. MOTOR_DELAY também recebe permissivos diretamente.
 

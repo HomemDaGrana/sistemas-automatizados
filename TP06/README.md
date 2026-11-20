@@ -1,5 +1,7 @@
 # TP06 - Partida, retenção e parada
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Programa
 MOTOR := EMG_OK AND STOP_OK AND OL_OK AND (START OR MOTOR_anterior).
 RUN := MOTOR. READY := EMG_OK AND STOP_OK AND OL_OK.

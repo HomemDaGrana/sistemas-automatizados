@@ -1,5 +1,7 @@
 # TP09 - Projeto de rede industrial
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Escopo e entregáveis
 Célula A com CLP, HMI, duas remotas e três inversores. Célula B com controlador legado Modbus RTU. SCADA na sala de controle, a 120 m, com EMI perto dos motores. Parada tolerável informada no cenário: até 15 min; expansão de quatro nós. Entrega: rede.drawio, rede.pdf, rede.png e enderecamento.xlsx (Nós, Matriz, Testes e Riscos).
 

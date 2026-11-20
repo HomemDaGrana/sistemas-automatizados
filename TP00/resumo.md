@@ -1,5 +1,7 @@
 # Fundamentos dos sistemas automatizados
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## 1. Sistemas automatizados e aplicações
 
 Um sistema automatizado combina aquisição de informações, regras de decisão e atuação para executar um processo com um objetivo definido. A presença de um motor, isoladamente, não caracteriza automação. É necessário estabelecer quem percebe a situação, quem decide a próxima ação e quem a executa. Em um sistema manual, a pessoa realiza as decisões operacionais. No semiautomático, parte do ciclo depende de intervenção humana. No automático, o controlador executa o ciclo previsto, enquanto a pessoa configura, supervisiona e responde às situações excepcionais.

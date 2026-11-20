@@ -1,5 +1,7 @@
 # TP02 - Estação de monitoramento
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Montagem e execução
 No Wokwi, criar projeto Arduino Uno e substituir sketch.ino e diagram.json pelos arquivos desta pasta. Adicionar as bibliotecas de libraries.txt. Executar e abrir Monitor Serial em 9600 baud. A montagem utiliza D2 para botão com INPUT_PULLUP, D8 para LED em série com 220 ohms, A0 para potenciômetro e D4 para DHT22. Alimentação comum 5 V/GND. Pressionado equivale a LOW.
 

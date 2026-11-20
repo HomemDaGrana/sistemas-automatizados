@@ -1,5 +1,7 @@
 # TP05 - Modelagem sequencial
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 O arquivo grafcet.drawio contém páginas para atividades 23, 24/27, 25 e 26. grafcet.pdf reúne as páginas para leitura. As imagens PNG permitem visualização no GitHub. A atividade obrigatória é o semáforo com E0 vermelho por 8 s, E1 verde por 10 s e E2 amarelo por 3 s. Ciclo nominal de 21 s.
 
 Receptividade só dispara se a etapa precedente estiver ativa. O tempo de cada etapa é reiniciado na sua entrada. O modelo inclui emergência prioritária, que conduz ao vermelho e exige RESET antes da retomada. Isso é hipótese adicional, não controle certificado de tráfego real.

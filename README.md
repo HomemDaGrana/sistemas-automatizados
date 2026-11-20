@@ -1,5 +1,7 @@
 # Sistemas Automatizados - atividades individuais
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 USJT · Engenharia de Software · 2026/2 · Prof. Robson Calvetti.
 
 Este pacote reúne as atividades TP00 a TP09 solicitadas para o GitHub. A3 e simulado de prova ficam fora do escopo. Os PDFs do professor não são redistribuídos.
@@ -18,10 +20,18 @@ Este pacote reúne as atividades TP00 a TP09 solicitadas para o GitHub. A3 e sim
 | TP09 | Rede industrial, endereçamento e riscos |
 
 ## Situação da entrega
-Consultar STATUS.md antes da publicação. Resultados documentais e de modelos locais estão identificados como tal. Nenhum campo de simulação é aprovado sem observação. Links de projetos e capturas precisam corresponder à execução nos ambientes indicados.
+Consultar [STATUS.md](STATUS.md) para os resultados e limites de verificação. Resultados documentais e de modelos locais estão identificados como tal. Nenhum campo de simulação é aprovado sem observação. Links de projetos e capturas precisam corresponder à execução nos ambientes indicados.
 
 ## Publicação
-Criar ou usar repositório pessoal público no GitHub, enviar as pastas preservando a estrutura e conferir os links relativos. Adicionar nome e RA apenas nos campos de identificação solicitados pelo professor. Não foram inventados nome, RA, integrantes ou repositório. Datas antigas das aulas não foram reinterpretadas como novos prazos.
+As pastas TP00 a TP09 estão publicadas neste repositório pessoal público. Nome e RA foram informados pelo aluno. A publicação no GitHub não registra automaticamente a entrega em outro portal da disciplina. Datas antigas das aulas não foram reinterpretadas como novos prazos.
 
 ## Fonte principal
 [Pasta da disciplina](https://drive.google.com/drive/folders/1Y5BiTH1I47L28xdBArPPRYPFSyjU4qEL). Os enunciados de cada TP orientam os arquivos. Gabaritos usados para conferência, não como evidência de execução própria.
+
+## Projetos publicados
+
+- [TP02 · Wokwi](https://wokwi.com/projects/479845101003491329)
+- [TP03 · Wokwi](https://wokwi.com/projects/479844855011678209)
+- [TP03 · Google Planilhas](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing)
+- [TP04 · CircuitVerse](https://circuitverse.org/users/487293/projects/tp04-logica-combinacional)
+- [TP04, TP06 e TP07 · PLC Simulator](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg)

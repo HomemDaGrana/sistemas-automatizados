@@ -1,5 +1,7 @@
 # TP03 - Sinais, escalonamento e filtragem
 
+**Autor: Denner Ferreira · RA: 823127322**
+
 ## Artefatos
 sketch.ino e diagram.json: aquisição de botão, ADC e LED no Wokwi. escalonamento.xlsx: cálculos, inversão, diagnóstico e gráfico. A planilha usa **casos controlados de entrada**, permitidos no gabarito; não são leituras capturadas. Consultar a [versão compartilhada no Google Planilhas](https://docs.google.com/spreadsheets/d/187Cu2bqNWRs2fhchuI5CMyPgcGpsKsUSxsrkj9zEd7Y/edit?usp=sharing).
 
