@@ -1,0 +1,83 @@
+[
+  {
+    "id": "inicial",
+    "SEQ_E0": "True",
+    "SEQ_E1": "False",
+    "SEQ_E2": "False",
+    "SEQ_MOTOR": "True",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "False"
+  },
+  {
+    "id": "enchendo",
+    "SEQ_E0": "False",
+    "SEQ_E1": "True",
+    "SEQ_E2": "False",
+    "SEQ_MOTOR": "False",
+    "SEQ_VALVULA": "True",
+    "SEQ_BLOCK": "False"
+  },
+  {
+    "id": "liberando",
+    "SEQ_E0": "False",
+    "SEQ_E1": "False",
+    "SEQ_E2": "True",
+    "SEQ_MOTOR": "True",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "False"
+  },
+  {
+    "id": "retorno",
+    "SEQ_E0": "True",
+    "SEQ_E1": "False",
+    "SEQ_E2": "False",
+    "SEQ_MOTOR": "True",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "False"
+  },
+  {
+    "id": "emergencia",
+    "SEQ_E0": "False",
+    "SEQ_E1": "True",
+    "SEQ_E2": "False",
+    "SEQ_MOTOR": "False",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "True"
+  },
+  {
+    "id": "restaurado-sem-reset",
+    "SEQ_E0": "False",
+    "SEQ_E1": "True",
+    "SEQ_E2": "False",
+    "SEQ_MOTOR": "False",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "True"
+  },
+  {
+    "id": "rearme",
+    "SEQ_E0": "True",
+    "SEQ_E1": "False",
+    "SEQ_E2": "False",
+    "SEQ_MOTOR": "True",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "False"
+  },
+  {
+    "id": "contagem-produtos",
+    "observado": "CTU_PRODCTUCUQRfalsePV0CV2"
+  },
+  {
+    "id": "estado-final-contagem",
+    "SEQ_E0": "False",
+    "SEQ_E1": "False",
+    "SEQ_E2": "True",
+    "SEQ_MOTOR": "False",
+    "SEQ_VALVULA": "False",
+    "SEQ_BLOCK": "False"
+  },
+  {
+    "id": "contagem-final",
+    "observado": "CTU_PRODCTUCUQRfalsePV0CV2",
+    "produtosConcluidos": 2
+  }
+]

@@ -4,4 +4,4 @@ As oito combinações de S, G e E foram aplicadas na interface de https://app.pl
 
 O botão Share exigiu login. O link de projeto e a exportação nativa permanecem pendentes; ladder.txt é especificação textual. A captura mostra o último caso S=G=E=1, M=0, após a parada da simulação. Não é uma evidência do CircuitVerse.
 
-Programa publicado em 20/11/2026 após cadastro no simulador. [Link do projeto](https://app.plcsimulator.online/LElaHuINNP5UewWBBrE9).
+Programa publicado em 20/11/2026 após cadastro no simulador. [Link do projeto](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg).

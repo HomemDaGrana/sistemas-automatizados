@@ -14,7 +14,7 @@ ladder.txt detalha rungs e ordem de avaliação. testes_modelo.csv e traco_tempo
 
 ## Execução no simulador
 
-TON com PT de 3000 ms e CTU com PV de 5 peças foram executados no PLC Simulator Online. Os testes incluem interrupção, sinal mantido e reset. No T08, as duas entradas foram configuradas antes de iniciar a simulação e foi lido o resultado estabilizado. A intermitência foi executada em 20/11/2026, com PT de 1000 ms em cada fase e amostragem da saída durante 6,3 segundos. A sequência livre segue pendente. Veja a [tabela de testes](casos_teste.csv) e a [captura](ton-atingido.png). [Abrir programa Ladder compartilhado](https://app.plcsimulator.online/LElaHuINNP5UewWBBrE9).
+TON com PT de 3000 ms e CTU com PV de 5 peças foram executados no PLC Simulator Online. Os testes incluem interrupção, sinal mantido e reset. No T08, as duas entradas foram configuradas antes de iniciar a simulação e foi lido o resultado estabilizado. A intermitência foi executada em 20/11/2026, com PT de 1000 ms em cada fase e amostragem da saída durante 6,3 segundos. A sequência livre foi montada e percorrida no simulador em 20/11/2026. Veja a [tabela de testes](casos_teste.csv) e a [captura](ton-atingido.png). [Abrir programa Ladder compartilhado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg).
 
 ### Intermitência
 
@@ -23,3 +23,13 @@ Foram usados TON T_OFF e T_ON com PT=1000 ms. ENABLE e contato negado de PISCA h
 O [registro observado](intermitencia-observada.json) usa o relógio da coleta no navegador, sujeito à latência de amostragem. A [captura](intermitencia.png) mostra o programa montado e desabilitado após o teste.
 
 O projeto compartilhado também contém os rungs da TP04 e TP06. Para o TON, habilite EMG_OK, STOP_OK e START. Para a intermitência, altere ENABLE e observe PISCA. Para o contador, aplique bordas em S_PECA e observe LOTE_OK. RESET_LOTE limpa o contador.
+
+### Sequência de transporte e enchimento
+
+No [projeto compartilhado](https://app.plcsimulator.online/dTmb4OYXdFJmYZl7vvmg), as memórias SEQ_E0, SEQ_E1 e SEQ_E2 representam transportar, encher e liberar. Para iniciar, deixe S_POS falso, habilite EMG_OK, aplique RESET_SEQ e solte RESET_SEQ. Ao ativar S_POS, a esteira para e SEQ_VALVULA abre por dois segundos. Em seguida, SEQ_E2 liga SEQ_MOTOR. Ao liberar S_POS, a sequência retorna a SEQ_E0.
+
+GO01, GO12 e GO20 são calculados antes dos rungs que alteram as memórias de etapa. Isso conserva a exclusividade nas transições. O bloco CTU_PROD conta as bordas de GO12. Seu CV indica produtos concluídos. O preset está em zero e a saída Q desse contador permanece sem uso. Os dois produtos testados resultaram em CV=2.
+
+A perda de EMG_OK liga a memória SEQ_BLOCK, que remove motor e válvula. Restaurar EMG_OK mantém o bloqueio. O rearme exige RESET_SEQ com EMG_OK verdadeiro e S_POS falso. O temporizador T_FILL reinicia quando a etapa deixa de estar habilitada.
+
+Os [resultados observados](sequencia-observada.json), os [casos da sequência](casos-sequencia.csv) e a [captura do projeto](sequencia-publicada.jpg) registram o percurso. A coleta de tela pode refletir a atualização anterior do editor, por isso a contagem final foi relida após a estabilização.

@@ -11,9 +11,10 @@ Lote: CTU C1, CU=S_PECA, R=RESET_LOTE, PV=5. LOTE_OK=C1.Q (CV>=5).
 Reset tem prioridade sobre incremento. Guardar estado anterior de S_PECA mesmo no reset.
 Sensor mantido em 1 depois de reset não gera nova borda; liberar e reaplicar.
 
-Sequência livre: memórias E0 transportar, E1 encher, E2 liberar; inicial E0.
+Sequência livre: memórias E0 transportar, E1 encher, E2 liberar; aplicar RESET_SEQ seguro para inicializar E0.
 T01=E0 AND S_POS; T12=E1 AND T_ENCHE.Q; T20=E2 AND NOT S_POS.
 Calcular transições com memórias antigas. Depois atualizar as três memórias em conjunto.
 TON T_ENCHE IN=E1, PT=2s; CTU_PROD conta somente T12.
-MOTOR=(E0 OR E2) AND EMG_OK; VALVULA=E1 AND EMG_OK.
+SEQ_MOTOR=(SEQ_E0 OR SEQ_E2) AND EMG_OK AND NOT SEQ_BLOCK.
+SEQ_VALVULA=SEQ_E1 AND EMG_OK AND NOT SEQ_BLOCK.
 EMG_OK=0: remover ações e bloquear sequência. RESET seguro sem peça reinicializa E0.

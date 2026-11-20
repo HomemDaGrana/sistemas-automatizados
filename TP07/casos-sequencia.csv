@@ -1,0 +1,9 @@
+﻿Caso,Estímulo,Esperado,Obtido,Ambiente
+S01,EMG_OK=1; S_POS=0; pulso RESET_SEQ,E0=1; motor=1; válvula=0,E0=1; motor=1; válvula=0,PLC Simulator Online
+S02,S_POS=1,E1=1; motor=0; válvula=1,E1=1; motor=0; válvula=1,PLC Simulator Online
+S03,T_FILL alcança PT=2000 ms,E2=1; motor=1; válvula=0,E2=1; motor=1; válvula=0,PLC Simulator Online
+S04,S_POS=0 após liberar,E0=1,E0=1,PLC Simulator Online
+S05,EMG_OK=0 durante enchimento,Bloqueio=1; motor=0; válvula=0,Bloqueio=1; motor=0; válvula=0,PLC Simulator Online
+S06,Restaurar EMG_OK sem RESET_SEQ,Bloqueio mantido,Bloqueio mantido,PLC Simulator Online
+S07,S_POS=0 e pulso RESET_SEQ,E0=1; bloqueio=0,E0=1; bloqueio=0,PLC Simulator Online
+S08,Concluir dois ciclos após instalação CTU_PROD,CV=2,CV=2,PLC Simulator Online
