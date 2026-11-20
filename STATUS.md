@@ -20,3 +20,7 @@ Estrutura utilizada: repositório pessoal público `sistemas-automatizados`, com
 Consulte a tabela para acompanhar os itens pendentes antes da entrega final.
 
 Cadastro do GitHub enviado ao formulário do professor em 20/11/2026. A página confirmou “Sua resposta foi registrada.” [Registro da entrega](ENTREGA.md).
+
+## A3 em desenvolvimento
+
+Tema confirmado: controle de tanque de água. [Base técnica](A3/README.md) com requisitos, E/S, lógica e 24 testes aprovados no modelo Python. Pendentes: implementação e testes no CLP online, relatório PDF de 10 a 20 páginas, apresentação PPTX e identificação dos demais integrantes. O cadastro anterior do GitHub não representa entrega concluída da A3.

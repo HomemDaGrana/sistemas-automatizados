@@ -4,7 +4,7 @@
 
 USJT · Engenharia de Software · 2026/2 · Prof. Robson Calvetti.
 
-Este pacote reúne as atividades TP00 a TP10 solicitadas para o GitHub. A3 e simulado de prova ficam fora do escopo. Os PDFs do professor não são redistribuídos.
+Este pacote reúne as atividades TP00 a TP10 solicitadas para o GitHub. O simulado de prova fica fora do escopo. A A3 foi iniciada separadamente em [A3/](A3/README.md), com tema controle de tanque de água; ainda está em desenvolvimento. Os PDFs do professor não são redistribuídos.
 
 | Pasta | Conteúdo |
 |---|---|

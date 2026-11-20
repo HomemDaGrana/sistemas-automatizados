@@ -1,0 +1,25 @@
+﻿Caso,Resultado,Método
+test_01_energizacao_parada,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_02_start_antes_da_prontidao_nao_fica_pendente,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_03_start_depois_da_prontidao,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_04_histerese_ao_cobrir_minimo,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_05_maximo_para_e_conta_uma_vez,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_06_nao_inicia_entre_minimo_e_maximo,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_07_reinicia_quando_minimo_seca,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_08_stop_prevalece,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_09_emergencia_memorizada,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_10_alto_alto_memorizado,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_11_sensores_incoerentes,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_12_sobrecarga,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_13_fonte_sem_agua,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_14_timeout_enchimento,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_15_retorno_atrasado_menos_de_2s,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_16_retorno_nao_liga,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_17_retorno_nao_desliga,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_18_reset_nao_reparte,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_19_reset_com_start_mantido_recusado,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_20_reset_com_hh_ativo_recusado,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_21_start_mantido_apos_stop_nao_reparte,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_22_power_cycle_nao_retem_habilitacao,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_23_maximo_no_limite_vence_timeout,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP
+test_24_reset_com_retorno_ativo_recusado,PASSOU,Modelo Python; tempo virtual; não é resultado de CLP

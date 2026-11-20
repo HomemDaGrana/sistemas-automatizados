@@ -1,0 +1,18 @@
+Tag,Tipo,Endereço proposto,Descrição,Convenção
+START,DI,I0.0,Habilitar modo automático,Borda de subida após prontidão
+STOP_OK,DI,I0.1,Parada normal liberada,1 permite; 0 interrompe
+EMG_OK,DI,I0.2,Emergência liberada,1 permite; 0 falha memorizada
+OL_OK,DI,I0.3,Proteção de sobrecarga normal,1 permite; 0 falha memorizada
+FONTE_OK,DI,I0.4,Fonte de água disponível,1 permite; 0 falha memorizada
+LS_MIN,DI,I0.5,Presença de água na altura mínima,1 molhado; 0 seco
+LS_MAX,DI,I0.6,Presença de água na altura máxima,1 molhado; 0 seco
+LS_HH,DI,I0.7,Presença de água na altura alto-alto,1 molhado; 0 seco
+P101_RUN,DI,I1.0,Retorno de funcionamento da bomba,1 funcionando; independente do comando
+RESET,DI,I1.1,Reconhecer e limpar falhas,Borda de subida com condições seguras
+P101_CMD,DO,Q0.0,Comando da bomba,1 solicita funcionamento
+AUTO,Memória,M0.0,Habilitação do automático,Inicia em 0; falha ou STOP remove
+ENCHENDO,Memória,M0.1,Memória do ciclo de enchimento,Set abaixo do mínimo; reset no máximo ou bloqueio
+FALHA,Memória,M0.2,Falha memorizada,Reset seguro obrigatório
+PRONTO,DO,Q0.1,Permissivos válidos por 3 segundos,Não implica bomba ligada
+ALARME,DO,Q0.2,Indicação de falha,1 se existe falha memorizada
+CICLOS,Contador,C0,Enchimentos concluídos,Incrementa ao atingir máximo durante enchimento
